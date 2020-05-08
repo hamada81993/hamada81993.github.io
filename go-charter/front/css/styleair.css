@@ -1,0 +1,942 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+input[type=search]{
+   -moz-appearance: none;/* older firefox */
+   -webkit-appearance: none; /* safari, chrome, edge and ie mobile */
+   appearance: none; /* rest */
+   padding: 3px !important;
+    font-family: Georgia;
+    border: 1px solid #f23e3e !important;
+    /* background: red; */
+    line-height: 2 !important;
+}
+
+tr:nth-child(even) {
+}
+.content2 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 12px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid #fbfbfb !important;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'PT Sans', sans-serif;
+    height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+
+.booking-form .text-danger {
+	
+	display: inline;
+    font-size: 21px;
+	
+}
+.booking-form {
+	
+    padding: 40px;
+    border-radius: 6px;
+    width: 100%;
+    margin: 50px 0px;
+    color: #fff;
+    font-size: 18px;
+    border : 2px solid black;
+    border-radius: 2%;
+
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	border: solid black;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.booking-form .form-checkbox input {
+	position: absolute !important;
+	margin-left: -9999px !important;
+	visibility: hidden !important;
+}
+
+.booking-form .form-checkbox label {
+	position: relative;
+	padding-top: 4px;
+	padding-left: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.booking-form .form-checkbox label+label {
+	margin-left: 15px;
+}
+
+.booking-form .form-checkbox input+span {
+	position: absolute;
+	left: 2px;
+	top: 4px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.booking-form .form-checkbox input+span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: #f23e3e;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.booking-form .form-checkbox input:not(:checked)+span:after {
+	opacity: 0;
+}
+
+.booking-form .form-checkbox input:checked+span:after {
+	opacity: 1;
+	width: 10px;
+	height: 10px;
+}
+
+.booking-form .form-btn {
+	margin-top: 27px;
+}
+
+.booking-form .submit-btn {
+	color: #fff;
+	background-color: #f23e3e;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 17%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+/*------------------------------------*/
+.flight-engine {
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    padding: 20px;
+    z-index: 999;
+}
+.tab1.active {
+    display: block
+}
+.tab1 {
+    display: none
+}
+.tabing {
+    float: left;
+    width: 100%;
+    background: rgba(0, 130, 185, .8);
+    padding: 0 10px 10px 10px;
+    color: #fff;
+}
+.tabing ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.tabing ul li {
+    float: left;
+}
+.tabing ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 130, 185, .9);
+    margin: 0 10px 0 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 16px;
+    text-align: left;
+}
+.tabing ul li a.active {
+    background: #ba0400
+}
+.flight-tab {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    padding: 15px
+}
+.flight-tab .textboxstyle {
+    width: 100%;
+    float: left;
+    color: #191919;
+    padding: 8px 9px 8px 14px;
+    border: none;
+    border-radius: 3px;
+    background: #f5f5f5;
+    font-size: 14px;
+    line-height: 20px;
+}
+.persent-one {
+    width: 14%;
+    float: left;
+    margin-right: 1%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.persent-one i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #191919;
+    font-size: 18px;
+}
+.persent-one.less-per {
+    width: 16%;
+    float: left;
+    margin-right: 1%;
+}
+.persent-one.less-btn {
+    width: 5%;
+    float: left;
+    margin-right: 1%;
+}
+.persent-one.less-btn .cst-btn {
+   width: 96px;
+    height: 54px;
+    /* border-radius: 100%; */
+    position: absolute;
+    top: -10px;
+    font-size: 20px;
+    background: #079090 !important;
+
+}
+
+/*All rights reserved LSP 
+
+Author: Brian Castaneda 
+*/
+
+
+/*original styling*/
+body{
+	padding:0px;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F4F9FF;
+	    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nav-prof {
+	    font-size: 16px;
+
+    line-height: 40px; padding-top: 60px; 
+}
+
+.admin-content{
+    
+    padding-top: 0px;
+    
+}
+
+/*styling for the navigation tabs*/
+
+.navlinks a{
+    
+  color: #4363a2;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block; 
+  padding-right: 60px;
+  font-family: 'Open Sans', sans-serif;    
+    
+}
+
+/*end of the navigation tabs*/
+
+
+/* Styling for the side bar links */
+.nav-pills>li>a {
+    border-radius: 5px;
+    color: white;
+    font-family: Open Sans;
+}
+/* Styling for the side bar links */
+
+.nav-pills>li>a:hover {
+    border-radius: 5px;
+    color: black;
+    font-family: Open Sans;
+      text-decoration: underline;
+}
+
+
+/*styling for the body text in the user panel*/
+
+/* tooltip link */
+
+.tip {
+	display: inline-block;
+	cursor: pointer;
+	
+}
+/* Styling for the inside on the tool tip, when scrolled over it will bring up a moddle and the moddle has to fit to pictures along with all the text 
+right now its not working on chrome but it is working on safary
+
+*/
+
+.tooltip-inner {
+    max-width: 80%;
+    /* If max-width does not work, try using width instead */
+    width: 80%; 
+	background-color: white;
+}
+
+/* tooltip content */
+
+.tooltip h2 {
+	white-space: nowrap;
+	width: 400px;
+	color: black;
+}
+/*end tool tip stying*/
+
+
+.navigation-item-link:hover:after {
+  width: 100%;
+}
+
+/*styling for the mini tabs within the user profile*/
+.header-navigation .navigation-item-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: #389AFA;
+  position: relative;
+  bottom: -20px;
+}
+
+.header-navigation .navigation-item-link:hover {
+  color: black;
+}
+/*styling for the links at the top of the user profile page*/
+.header-navigation .navigation-item-link {
+  color: #7e8a9b;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  display: inline-block;
+}
+.header-navigation .navigation-item {
+  margin-right: 2.85rem;
+}
+
+.header-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+/*styling for the hover event within the users profile*/
+.header-left-link:hover {
+  text-decoration: underline;
+  color: #7e8a9b;
+}
+.header-left-link {
+  color: #3da3f9;
+  margin-left: 0.75rem;
+}
+
+.header-left-city:after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background-color: #C2C8CF;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+.header-left-city {
+  margin-left: 0.0rem;
+  color: #F0843C;
+}
+.header2 {
+  font-weight: bold;
+    margin-bottom: 1.43rem;
+    font-size: 44px;
+  font-family:  Pacifico;
+    color: #4363a2;
+
+}
+
+.header {
+  padding: 2.85rem .0rem 0;
+  border-bottom: none;
+}
+
+.header-intro, .header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-intro {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2.85rem;
+}
+
+.header-right {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*end of the header styling*/
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+/*styling for the step wizard, this makes the buttons horizontal*/
+.stepwizard-step {
+    display: table-cell;
+       text-align: left;
+           padding-top: 30px;
+    position: relative;
+}
+/*styling for the step wizard, this makes the buttons turn a different color on the next step*/
+
+.stepwizard-row:before {
+    top: 45px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 69%;
+    text-align: left;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+/*this draws the table so we can see the line in between the buttons*/
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+
+/* this links the line with the buttons  */
+
+.stepwizard-row {
+    display: table-row;
+}
+/* this is the space from the circles and the header at the top*/
+.stepwizard-step p {
+    margin-top: 10px;
+
+}
+
+
+/* This is the blue text for the credit card headers */
+.creditcardtext{
+    color: #3B5998;
+  font-family: "Open Sans"; font-size: 14px !important; font-style: normal; font-variant: normal; font-weight: 600; line-height: 26.4px;   
+   padding-top: 20px;
+}  
+
+
+/* styling for blue line under the links in the mini user navbar */
+.navigation-item-link:hover:after {
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* styling for the card with dannys picture within the linking of social media in intergrations*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400";
+@import "https://fonts.googleapis.com/css?family=Pacifico:300,400";
+
+
+.badgescard,
+.firstinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-group {
+  margin-top: 30px;
+  position: relative;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group-addon {
+  border: none
+}
+
+.linkname {
+  display: none;
+}
+
+#copyButton {
+  cursor: pointer; 
+  background: #38BEEF;
+}
+#copyTarget {
+  border-left: none;
+}
+
+.copied {
+  opacity: 1; 
+  position: absolute; 
+  left: 75px;}
+
+@media (min-width: 768px) {
+  .copied {left: 35px}
+  
+  .linkname {
+    display: block;
+    background: #3B3E45; 
+    color: #fff;
+  }
+}
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
+}
+
+.content2 {
+    position: relative;
+}
+
+.card {
+    width: 500px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    background-color:#F2FAFD; 
+}
+
+.card:after {
+    content: '';
+    display: block;
+    width: 190px;
+    height: 300px;
+    background: #F2FAFD;
+    position: absolute;
+    animation: rotatemagic 0.75s cubic-bezier(0.425, 1.04, 0.47, 1.105) 1s both;
+}
+
+.badgescard {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #00bcd4;
+    color:#fff;
+    width: 480px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: -1;
+    left: 10px;
+    bottom: 10px;
+    animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s forwards;
+}
+
+
+.badgescard span {
+    font-size: 1.6em;
+    margin: 0px 6px;
+    opacity: 0.6;
+}
+
+.firstinfo {
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+}
+
+.firstinfo img {
+    border-radius: 0%;
+    width: 40px;
+    height: 86px;
+}
+
+.firstinfo .profileinfo {
+    padding: 0px 20px;
+}
+
+.firstinfo .profileinfo h1 {
+    font-size: 1.8em;
+}
+
+.firstinfo .profileinfo h3 {
+    font-size: 1.2em;
+    color: #00bcd4;
+    font-style: italic;
+}
+
+.firstinfo .profileinfo p.bio {
+    padding: 10px 0px;
+    color: #5A5A5A;
+    line-height: 1.2;
+    font-style: initial;
+}
+
+@keyframes animatop {
+    0% {
+        opacity: 0;
+        bottom: -500px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+@keyframes animainfos {
+    0% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: -42px;
+    }
+}
+
+@keyframes rotatemagic {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+        top: -24px;
+        left: -253px;
+    }
+    100% {
+        transform: rotate(-30deg);
+        top: -24px;
+        left: -78px;
+    }
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*this is the styling for the form in the automation */
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 0px auto;
+        margin-bottom: 0;
+
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+      
+    }
+    .wizard-inner {
+        
+        background: white;
+        
+    }
+
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 33%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.navlinks{
+    
+    font-family: Open Sans;
+    color: #3B5998;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    
+}
+
+/*styling for the text in the upgradedable plan section */
+.maintext2 {
+    color: #3B5998;
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 1px;
+    font-family: Open Sans, Bold;
+}
+/*this handles the color pricing on the billing section*/
+.x-price {
+    float: right;
+    font-family: Open Sans, Regular;
+    font-size: 30px;
+    font-weight: 300;
+    color: #3B5998;
+}
+/* this handles the text inside the dropdown tab in the billing section */
+.subtext2 {
+    color: #3B5998;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 9px;
+    font-family: Open Sans, Semibold;
+}
+.wizard .nav-tabs > li a {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 0px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+
+
+
+/*styling for  my plan in the billing section */
+.noBorder td {
+  border: 0;
+}
+
+/*styling for the picture of credit card*/
+
+.mastercard{
+    
+    height: 30px !important;
+    width: 30px !important;
+    
+}
+/*styling for the flyer generator */ 
+
+
+

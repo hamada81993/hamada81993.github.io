@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<!-- Mirrored from go-charter.com/loginre.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 May 2020 22:13:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <title>Go charter ---- </title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="build/css/intlTelInput.css">
+        <link rel="stylesheet" href="build/css/demo.css">
+        <link href="front/css/bootstrap.css" rel="stylesheet" />
+        <link href="front/css/style.css" rel="stylesheet" />
+        <link href="front/css/responsive.css" rel="stylesheet" />
+        <link href="../cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+        <link href="../cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+        <link href="front/css/myStyle.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="front/images/favicon.png" type="image/x-icon" />
+        	<link type="text/css" rel="stylesheet" href="front/css/styleair.css" />
+
+        <link href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<style type="text/css">
+    select.form-control {
+  &:not([size]):not([multiple]) {
+    height: calc(2.25rem + 25px);
+  }
+</style>
+
+<link href="../maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+
+        <!-- Responsive -->
+      
+        <!--[if lt IE 9]><script src="../../cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    </head>
+
+
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+
+<div id="booking" class="section" style="background-image: url('front/images/background.jpg');" >
+<div id="regContainer" class="container">
+      <div class="row">
+      <div class="col-md-6 col-md-offset-3" style=" top: 45px;">
+        <div class="panel panel-login">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <a href="#" class="active" id="login-form-link">Login</a>
+              </div>
+              <div class="col-xs-6">
+                <a href="#" id="register-form-link">Register</a>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+						</div>
+              <div class="col-lg-12">
+                <form id="login-form"  method="post" role="form" style="display: block;">
+                    <div class="result"></div>
+                  <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+                
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form id="register-form"  method="post" role="form" style="display: none;">
+                    <div class="result"></div>
+                  <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="reusername" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" tabindex="2" class="form-control" placeholder="Your Email">
+                    </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="repassword" id="password" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                  </div>
+                    <div class="form-group">
+                        <label>Type</label>
+                        <select  style="height: calc(2.25rem + 25px);"name="type"  class="form-control">
+						<option value="touroperator">Touroperator</option>
+						<option value="airline">Airline</option>
+						</select>
+						</div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                          <button type="submit" name="register-submit"  tabindex="4" class="form-control btn btn-register">
+                              Register Now
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <a href="forgot-password/index.html">Forgot Password ?</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="../code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="../maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="front/js/popper.min.js"></script>
+        <script src="front/js/bootstrap.min.js"></script>
+
+        <script src="front/js/jquery.fancybox.js"></script>
+        <script src="front/js/owl.js"></script>
+        <script src="front/js/wow.js"></script>
+        <script src="front/js/appear.js"></script>
+        <script src="front/js/mixitup.js"></script>
+        <script src="front/js/jquery.bxslider.js"></script>
+        <script src="front/js/scrollbar.js"></script>
+        <script src="front/js/script.js"></script>
+        <script src="../cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+        <script src="../cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+          <script src="build/js/intlTelInput.js"></script>
+        <script>
+         var input = document.querySelector("#phone");
+         window.intlTelInput(input, {
+         // allowDropdown: false,
+         // autoHideDialCode: false,
+         // autoPlaceholder: "off",
+         // dropdownContainer: document.body,
+         // excludeCountries: ["us"],
+         // formatOnDisplay: false,
+          geoIpLookup: function(callback) {
+            $.get("http://ipinfo.io/", function() {}, "jsonp").always(function(resp) {
+              var countryCode = (resp && resp.country) ? resp.country : "";
+              callback(countryCode);
+            });
+          },
+         // hiddenInput: "full_number",
+         // initialCountry: "auto",
+         // localizedCountries: { 'de': 'Deutschland' },
+         // nationalMode: false,
+         // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+         // placeholderNumberType: "MOBILE",
+         // preferredCountries: ['cn', 'jp'],
+         // separateDialCode: true,
+      utilsScript: "build/js/utils.js",
+    });
+  </script>
+
+        <script>
+            
+$(function() {
+
+    $('#login-form-link').click(function(e) {
+		$("#login-form").delay(100).fadeIn(100);
+ 		$("#register-form").fadeOut(100);
+		$('#register-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+	$('#register-form-link').click(function(e) {
+		$("#register-form").delay(100).fadeIn(100);
+ 		$("#login-form").fadeOut(100);
+		$('#login-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+
+});
+
+
+        </script>
+
+<script type="text/javascript">
+/*
+From JavaScript and Forms Tutorial at dyn-web.com
+Find information and updates at http://www.dyn-web.com/tutorials/forms/
+*/
+
+// removes all option elements in select list 
+// removeGrp (optional) boolean to remove optgroups
+function removeAllOptions(sel, removeGrp) {
+    var len, groups, par;
+    if (removeGrp) {
+        groups = sel.getElementsByTagName('optgroup');
+        len = groups.length;
+        for (var i=len; i; i--) {
+            sel.removeChild( groups[i-1] );
+        }
+    }
+    
+    len = sel.options.length;
+    for (var i=len; i; i--) {
+        par = sel.options[i-1].parentNode;
+        par.removeChild( sel.options[i-1] );
+    }
+}
+
+function appendDataToSelect(sel, obj) {
+    var f = document.createDocumentFragment();
+    var labels = [], group, opts;
+    
+    function addOptions(obj) {
+        var f = document.createDocumentFragment();
+        var o;
+        
+        for (var i=0, len=obj.text.length; i<len; i++) {
+            o = document.createElement('option');
+            o.appendChild( document.createTextNode( obj.text[i] ) );
+            
+            if ( obj.value ) {
+                o.value = obj.value[i];
+            }
+            
+            f.appendChild(o);
+        }
+        return f;
+    }
+    
+    if ( obj.text ) {
+        opts = addOptions(obj);
+        f.appendChild(opts);
+    } else {
+        for ( var prop in obj ) {
+            if ( obj.hasOwnProperty(prop) ) {
+                labels.push(prop);
+            }
+        }
+        
+        for (var i=0, len=labels.length; i<len; i++) {
+            group = document.createElement('optgroup');
+            group.label = labels[i];
+            f.appendChild(group);
+            opts = addOptions(obj[ labels[i] ] );
+            group.appendChild(opts);
+        }
+    }
+    sel.appendChild(f);
+}
+
+// anonymous function assigned to onchange event of controlling select list
+document.forms['demoForm'].elements['airline_name'].onchange = function(e) {
+    // name of associated select list
+    var relName = 'airline_model';
+    
+    // reference to associated select list 
+    var relList = this.form.elements[ relName ];
+    
+    // get data from object literal based on selection in controlling select list (this.value)
+    var obj = Select_List_Data[ relName ][ this.value ];
+    
+    // remove current option elements
+    removeAllOptions(relList, true);
+    
+    // call function to add optgroup/option elements
+    // pass reference to associated select list and data for new options
+    appendDataToSelect(relList, obj);
+};
+
+// object literal holds data for optgroup/option elements
+var Select_List_Data = {
+    
+    // name of associated select list
+    'airline_model': {
+        
+        // names match option values in controlling select list
+        js: {
+            // optgroup label
+            'Free Scripts': {
+                text: ['Slider Control', 'Scrollers', 'Banner Rotator'],
+                value: ['slider', 'scrollers', 'banner']
+            },
+            'License': {
+                text: ['Scrolling Divs', 'Tooltips', 'Rotate Images'],
+                value: ['scroll', 'tooltips', 'rotate']
+            }
+        },
+        php: {
+            // example without optgroups
+            text: ['Random Image', 'Rotate Images', 'Form Class', 'Table Class', 'Order Form'],
+            value: ['random', 'rotate', 'form', 'table', 'order']
+        },
+        tuts: {
+            'Download Demos': {
+                // example without values
+                text: ['Iframes', 'PHP to JS', 'Unobtrusive JS']
+            },
+            
+            'No Download': {
+                text: ['Object Literals', 'Initializing JS', 'JS Errors']
+            }
+        }
+    }
+    
+};
+
+// populate associated select list when page loads
+window.onload = function() {
+    var form = document.forms['demoForm'];
+    
+    // reference to controlling select list
+    var sel = form.elements['airline_name'];
+    sel.selectedIndex = 0;
+    
+    // name of associated select list
+    var relName = 'airline_model';
+    // reference to associated select list
+    var rel = form.elements[ relName ];
+    
+    // get data for associated select list passing its name
+    // and value of selected in controlling select list
+    var data = Select_List_Data[ relName ][ sel.value ];
+    
+    // add options to associated select list
+    appendDataToSelect(rel, data);
+};
+
+</script>
+    </body>
+
+
+<!-- Mirrored from go-charter.com/loginre.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 May 2020 22:13:12 GMT -->
+</html>
+

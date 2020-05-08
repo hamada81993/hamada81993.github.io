@@ -1,0 +1,26 @@
+/* start my framework */
+.form-in-table{
+    display: inline-table;
+}
+.my-spinner-circle{
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.result{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+    color: #fff;
+    display: none;
+}
+/* end my framework */
