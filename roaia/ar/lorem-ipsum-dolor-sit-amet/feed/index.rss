@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	التعليقات على: Lorem ipsum dolor sit amet	</title>
+	<atom:link href="https://roaia-constructions.com/ar/lorem-ipsum-dolor-sit-amet/feed/" rel="self" type="application/rss+xml" />
+	<link>https://roaia-constructions.com/ar/lorem-ipsum-dolor-sit-amet/</link>
+	<description>إدارة الجودة هي أساس ثقافة الشركة ونهج الأعمال</description>
+	<lastBuildDate>Fri, 22 Jul 2016 14:18:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.3</generator>
+			<item>
+				<title>
+				بواسطة: Joe Doe				</title>
+				<link>https://roaia-constructions.com/ar/lorem-ipsum-dolor-sit-amet/#comment-2</link>
+		<dc:creator><![CDATA[Joe Doe]]></dc:creator>
+		<pubDate>Fri, 22 Jul 2016 14:18:29 +0000</pubDate>
+		<guid isPermaLink="false">http://sw-themes.com/porto_dummy/?p=75#comment-2</guid>
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim ornare nisi, vitae mattis nulla ante id dui.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim ornare nisi, vitae mattis nulla ante id dui.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>
